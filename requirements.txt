@@ -1,0 +1,4 @@
+cryptography>=39.0.0
+pycrypto>=2.6.1
+pynacl>=1.4.0
+pytest>=7.0.0

@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cryptographic keys and credentials
+*.pem
+*.key
+*.crt
+*.cert
+*.der
+*.p12
+
+# ZKP specific
+circuits/build/
+*.ptau
+*.zkey
+verification_key.json
+witness.wtns
+*.r1cs
+proof.json
+public.json
+
+# Logs
+*.log
+logs/
