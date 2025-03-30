@@ -138,14 +138,14 @@ class InteractiveDemo:
             print_info("Please install snarkjs with: npm install -g snarkjs")
             sys.exit(1)
             
-        # Check for circomlib
-        circuit_dir = Path(self.circuit_path).parent
-        node_modules = circuit_dir / "node_modules"
-        circomlib = node_modules / "circomlib"
-        if not circomlib.exists():
-            print_error("circomlib not found in node_modules directory")
-            print_info("Please run the initialization script: ./init_circuit_deps.sh")
-            sys.exit(1)
+        # # Check for circomlib
+        # circuit_dir = Path(self.circuit_path).parent
+        # node_modules = circuit_dir / "node_modules"
+        # circomlib = node_modules / "circomlib"
+        # if not circomlib.exists():
+        #     print_error("circomlib not found in node_modules directory")
+        #     print_info("Please run the initialization script: ./init_circuit_deps.sh")
+        #     sys.exit(1)
 
     def run(self):
         """Run the interactive demo."""

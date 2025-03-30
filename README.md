@@ -57,10 +57,28 @@ cd ..
 
 ## Usage
 
+### Basic Demo
+
 ```bash
-# Run the main demo
+# Run the basic demo
 python -m src.main
 ```
+
+### Interactive Demo (For Presentations)
+
+```bash
+# Run the interactive demo
+./scripts/run_demo.sh
+
+# Or directly with Python
+python -m src.interactive_demo
+```
+
+The interactive demo provides a role-based interface that lets you:
+- Switch between Student, School, and University perspectives
+- Understand how each party interacts with the system
+- Visualize the complete flow of the zero-knowledge proof process
+- See how privacy is preserved throughout the verification
 
 ## Project Structure
 
