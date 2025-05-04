@@ -288,6 +288,7 @@ class InteractiveDemo:
                 
             print_info(f"Received signed credential for {self.score_type.upper()}")
             self.student.store_credential(self.credential)
+            print(sys.getsizeof(self.credential))
             print_info("Credential stored securely")
         else:
             print_info("Already have a credential from school")
@@ -311,7 +312,7 @@ class InteractiveDemo:
         print_info("The actual score remains private and is not disclosed to the university")
         
         press_enter()
-        
+
         print_step("Sending proof to university...")
         print_info("Proof sent to university admission system")
         print_info("Waiting for verification result...")
