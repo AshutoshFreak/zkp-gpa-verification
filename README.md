@@ -1,6 +1,6 @@
 # ZKP GPA Verification
 
-A privacy-preserving college admissions system using Zero-Knowledge Proofs.
+A privacy-preserving college admissions system using Zero-Knowledge Proofs. 
 
 ## Overview
 
